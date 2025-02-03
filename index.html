@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Green Forest</title>
+    <!--Review Swiper-->
+    <link rel="stylesheet" href="Images/swiper-bundle.min.css1.css" />
+
+<!--Auto Swiper-->
+     <link rel="stylesheet" href="Images/swiper-bundle.min.css2.css" />
+<!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+<!--Google Font-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=north_east"
+    />
+<!--Main Css File-->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+
+  <body>
+    <header>
+<!--Swiper-->
+      <div class="swiper banner">
+<!--Navbar-->
+        <div class="navbar">
+<!--Logo-->
+          <div class="logo">
+            <p>Green</p>
+            Forest
+          </div>
+<!--Option-->
+          <div class="option">
+            <div class="home">
+              <a href="#home">Home</a>
+            </div>
+            <div class="aboutus">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="#aboutus">Orders</a>
+            </div>
+            <div class="Categories">
+              <select>
+                <option>Categories</option>
+                <option>Living Room Furniture</option>
+                <option>Bed Room Furniture</option>
+                <option>Office Furniture</option>
+                <option>Outdoor Furniture</option>
+                <option>Kitchen Furniture</option>
+              </select>
+            </div>
+            <div class="brands">
+              <select>
+                <option>Brand</option>
+                <option>Durian Furniture</option>
+                <option>Ikea Furniture</option>
+                <option>Godrej Interio Furniture</option>
+                <option>Stanley Furniture</option>
+                <option>WoodenStreet Furniture</option>
+              </select>
+            </div>
+            <div class="faqs">FAQs</div>
+            <div class="review">
+              <a href="Review">Review</a>
+            </div>
+
+            <div class="search">
+              <div class="search-logo">
+                <span class="fa-solid fa-magnifying-glass"></span>
+                <p>Search</p>
+              </div>
+            </div>
+            <div class="signup">Sign Up</div>
+          </div>
+<!--Sign Up-->
+        </div>
+        <input type="search" id="search-box" placeholder="search" />
+
+<!--Swiper-slides-->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img1 img">
+              <div class="text">
+                <h1>All Trending Furniture.</h1>
+                <button>
+                  <p>Shop Now</p>
+                  <span class="material-symbols-outlined">north_east</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img2 img">
+              <div class="text">
+                <h1>Luxurious Sofas.</h1>
+                <button>
+                  <p>Shop Now</p>
+                  <span class="material-symbols-outlined">north_east</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img3 img">
+              <div class="text">
+                <h1>Luxurious Beds.</h1>
+                <button>
+                  <p>Shop Now</p>
+                  <span class="material-symbols-outlined">north_east</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img4 img">
+              <div class="text">
+                <h1>Office Furniture.</h1>
+                <button>
+                  <p>Shop Now</p>
+                  <span class="material-symbols-outlined">north_east</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img5 img">
+              <div class="text">
+                <h1>Storage Furniture.</h1>
+                <button>
+                  <p>Shop Now</p>
+                  <span class="material-symbols-outlined">north_east</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img6 img">
+              <div class="text">
+                <h1>Kitchen Furniture.</h1>
+                <button>
+                  <p>Shop Now</p>
+                  <span class="material-symbols-outlined">north_east</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+<!--Sofas-->
+      <section>
+        <div class="heading">
+          <h1 id="items-heading">Welcome to Luxurious Sofas</h1>
+          <button id="seeAll">See All</button>
+        </div>
+        <div class="items-box">
+          <div class="items">
+<!--sofa Item 1-->
+            <div class="item">
+              <div class="sofa-img1"></div>
+              <b>Luxurious sleeping Sofas</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>50%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>49,799 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content1')">Buy Now</button>
+            </div>
+
+<!--sofa Item 2-->
+            <div class="item">
+              <div class="sofa-img2"></div>
+              <b>Luxurious plywood Sofas</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+              </div>
+              <div class="discount">Up to <b>30%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>1,19,999 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content2')">Buy Now</button>
+            </div>
+
+<!--sofa Item 3-->
+
+            <div class="item">
+              <div class="sofa-img3"></div>
+              <b>Luxurious Hotel Sofa</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>40%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>69,599 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content3')">Buy Now</button>
+            </div>
+
+<!--sofa Item 4-->
+
+            <div class="item">
+              <div class="sofa-img4"></div>
+              <b>Luxurious Travelling Sofa</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>20% </b>off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>77,799 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content4')">Buy Now</button>
+            </div>
+
+<!--sofa Item 5-->
+
+            <div class="item">
+              <div class="sofa-img5"></div>
+              <b>Regular Hall Sofa</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>40,799 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content5')">Buy Now</button>
+            </div>
+
+<!--sofa Item 6-->
+
+            <div class="item">
+              <div class="sofa-img6"></div>
+              <b>Office's Sofa</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+              </div>
+              <div class="discount">Up to <b>10%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>99,999 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content6')">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Dinning Table-->
+
+      <section>
+        <div class="heading">
+          <h1 id="items-heading">Welcome to Luxurious Dinning Tables</h1>
+          <button id="seeAll">See All</button>
+        </div>
+
+        <div class="items-box">
+          <div class="items">
+<!--Item 1-->
+            <div class="item">
+              <div class="Dinning-img1"></div>
+              <b>Hotel Dinning Table</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+              </div>
+              <div class="discount">Up to <b>20%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>75,999 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content7')">Buy Now</button>
+            </div>
+<!--Item 2-->
+            <div class="item">
+              <div class="Dinning-img2"></div>
+              <b>Home Dinning Table</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>50%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>49,299 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content8')">Buy Now</button>
+            </div>
+<!--Item 3-->
+            <div class="item">
+              <div class="Dinning-img3"></div>
+              <b>Hotel Dinning Table</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+              </div>
+              <div class="discount">Up to <b>18%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>89,999 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content9')">Buy Now</button>
+            </div>
+<!--Item 4-->
+            <div class="item">
+              <div class="Dinning-img4"></div>
+              <b>Restaurant Dinning Table </b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+              </div>
+              <div class="discount">Up to <b>40%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>1,19,499 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content10')">Buy Now</button>
+            </div>
+<!--Item 5-->
+            <div class="item">
+              <div class="Dinning-img5"></div>
+              <b>Home Dinning Table</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #edbc07"
+                ></i>
+              </div>
+              <div class="discount">Up to <b>10%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>39,799 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content11')">Buy Now</button>
+            </div>
+<!--Item 6-->
+            <div class="item">
+              <div class="Dinning-img6"></div>
+              <b>Cafe Dinning Table</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>45,399 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content12')">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Double Bed-->
+
+      <section>
+        <div class="heading">
+          <h1 id="items-heading">Welcome to Luxurious Double Beds</h1>
+          <button id="seeAll">See All</button>
+        </div>
+
+        <div class="items-box">
+          <div class="items">
+            <!--item 1-->
+            <div class="item">
+              <div class="bed-img1"></div>
+              <b>Restaurant Double Bed</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>45,399 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content13')">Buy Now</button>
+            </div>
+<!--item 2-->
+            <div class="item">
+              <div class="bed-img2"></div>
+              <b>Home Double Bed</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>40,399 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content14')">Buy Now</button>
+            </div>
+<!--item 3-->
+            <div class="item">
+              <div class="bed-img3"></div>
+              <b>Double Thick Causual Bed</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>65,799 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content15')">Buy Now</button>
+            </div>
+<!--item 4-->
+            <div class="item">
+              <div class="bed-img4"></div>
+              <b>Formal Double Bed</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>49,399 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content16')">Buy Now</button>
+            </div>
+<!--item 5-->
+            <div class="item">
+              <div class="bed-img5"></div>
+              <b>Solid Wood Double Bed</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>55,399 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content17')">Buy Now</button>
+            </div>
+<!--item 6-->
+            <div class="item">
+              <div class="bed-img6"></div>
+              <b>Formal Double Bed</b>
+              <div class="star">
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-solid fa-star" style="color: #edbc07"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="discount">Up to <b>25%</b> off</div>
+              <div class="prize">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h3>51,399 /-</h3>
+              </div>
+              <button id="btn" onclick="fun('content18')">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Review-->
+
+<div class="Review">
+      <div class="heading">
+          <h1 id="items-heading">Top Reviews</h1>
+          <button id="seeAll">See All</button>
+      </div>
+  <div class="swiper myReview">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="person">
+          <div class="review-img1"></div>
+          <h2>Pooja Hegde</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+        <div class="person">
+          <div class="review-img2"></div>
+          <h2>Mahesh Babu</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+        <div class="person">
+          <div class="review-img3"></div>
+          <h2>Rakul Preet Singh</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="person">
+          <div class="review-img4"></div>
+          <h2>Tom Cruise</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+        <div class="person">
+          <div class="review-img5"></div>
+          <h2>Hande Ercel</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+  
+        </div>
+        <div class="person">
+          <div class="review-img6"></div>
+          <h2>Chris Evans</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="person">
+          <div class="review-img7"></div>
+          <h2>Shradhdha kappor</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+        <div class="person">
+          <div class="review-img8"></div>
+          <h2>Sreleela</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+        <div class="person">
+          <div class="review-img9"></div>
+          <h2>Allu Arjun</h2>
+          <p id="topReview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint libero nulla veniam vero dolorem cumque obcaecati voluptatem eveniet neque! Quis error deleniti rem quae nulla ab, expedita eaque sequi!</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+
+
+<!--Office Furniture-->
+
+<section>
+  <div class="heading">
+    <h1 id="items-heading">Welcome to Office Chair & Desk</h1>
+    <button id="seeAll">See All</button>
+  </div>
+
+  <div class="items-box">
+    <div class="items">
+
+      <div class="item">
+        <div class="desk-img1"></div>
+        <b>Employee's Small Desk</b>
+        <div class="star">
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="discount">Up to <b>25%</b> off</div>
+        <div class="prize">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <h3>51,399 /-</h3>
+        </div>
+        <button id="btn" onclick="fun('content19')">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <div class="desk-img2"></div>
+        <b>Computer Desk</b>
+        <div class="star">
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="discount">Up to <b>25%</b> off</div>
+        <div class="prize">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <h3>31,599 /-</h3>
+        </div>
+        <button id="btn" onclick="fun('content20')">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <div class="desk-img3"></div>
+        <b>Casual Meeting Desk</b>
+        <div class="star">
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="discount">Up to <b>12%</b> off</div>
+        <div class="prize">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <h3>63,199 /-</h3>
+        </div>
+        <button id="btn" onclick="fun('content21')">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <div class="desk-img4"></div>
+        <b>Laptop Desk</b>
+        <div class="star">
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="discount">Up to <b>25%</b> off</div>
+        <div class="prize">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <h3>39,999 /-</h3>
+        </div>
+        <button id="btn" onclick="fun('content22')">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <div class="desk-img5"></div>
+        <b>Spot Desk</b>
+        <div class="star">
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="discount">Up to <b>20%</b> off</div>
+        <div class="prize">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <h3>21,111 /-</h3>
+        </div>
+        <button id="btn" onclick="fun('content23')">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <div class="desk-img6"></div>
+        <b>Employee's Large Desk</b>
+        <div class="star">
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-solid fa-star" style="color: #edbc07"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="discount">Up to <b>30%</b> off</div>
+        <div class="prize">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <h3>89,450 /-</h3>
+        </div>
+        <button id="btn" onclick="fun('content24')">Buy Now</button>
+      </div>
+
+
+      </div>
+      </div>
+</section>
+
+    </main>
+
+<footer>
+  
+  <div class="foot">
+
+    <div class="page">Top Of Page</div>
+
+
+    <div class="information">
+      <div class="know">
+        <ul>
+          <label>Know About Us</label>
+          <li>About Green Forest</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+
+      <div class="connect">
+        <ul>
+          <label>Connect with Us</label>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>+91 4444-6666-5555</li>
+          <li>greenforset@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="money">
+        <ul>
+          <label>Make Money with Us</label>
+          <li>Sell On Green Forest</li>
+          <li>Sell under Green Forest Accelerator</li>
+          <li>Protect & Build your Brand</li>
+          <li>Green Forest Global Selling</li>
+          <li>Advertise your Furniture</li>
+        </ul>
+      </div>
+
+      <div class="account">
+        <ul>
+          <label>Let Us Help You</label>
+          <li>Your Account</li>
+          <li>Returns Center</li>
+          <li>100% purchase protection</li>
+          <li>Green Forest App Download</li>
+          <li>Help</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+    <div class="legal">
+      <p>copy right <i class="fa-regular fa-copyright"></i>1950-2025,Green Forest pvt.ltd</p>
+      <p>Privacy Notice</p>
+      <p>Terms & Conditions</p>
+    </div>
+
+  </div>
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Review-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <!-- <script src="Order.js"></script> -->
+  </body>
+</html>
